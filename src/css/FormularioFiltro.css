@@ -1,0 +1,52 @@
+main .cont_1 .cont_formulario_filtro {
+	background-color: #1b314b;
+	padding: 1.875rem;
+	margin-top: 1.875rem;
+	margin-bottom: 1.25rem;
+	border-radius: .3125rem;
+	box-shadow: 0rem 0rem .625rem var(--bs-gris);
+}
+main
+	.cont_1
+	.cont_formulario_filtro
+	.formulario_filtro
+	.formulario_grupo_filtro {
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+}
+main
+	.cont_1
+	.cont_formulario_filtro
+	.formulario_filtro
+	.formulario_grupo_filtro
+	label {
+	color: var(--bs-gris);
+	font-size: x-large;
+	font-weight: 600;
+}
+main
+	.cont_1
+	.cont_formulario_filtro
+	.formulario_filtro
+	.formulario_grupo_filtro
+	label {
+	margin-right: 1.25rem;
+}
+main
+	.cont_1
+	.cont_formulario_filtro
+	.formulario_filtro
+	.formulario_grupo_filtro
+	select {
+	border: none;
+	padding: .4375rem;
+	margin: auto;
+	width: 90%;
+	max-width: 31.25rem;
+	text-align: center;
+	margin-top: 1.25rem;
+	border-radius: .3125rem;
+	color: var(--bs-gris);
+	cursor: pointer;
+	font-weight: 600;
+}

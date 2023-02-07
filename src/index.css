@@ -1,0 +1,30 @@
+::-webkit-scrollbar-thumb {
+	background: var(--bs-gris);
+	border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+	background: var(--bs-negro-oscuro);
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+body {
+	background-color: var(--bs-azul-rgba);
+}
+p {
+	font-size: medium;
+}
+h2 {
+	font-size: xx-large;
+}
+main {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+main .cont_1 {
+	margin: auto;
+	width: 90%;
+	max-width: 770px;
+}

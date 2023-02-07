@@ -1,0 +1,12 @@
+
+main .cont_1 .cont_dinero .caja_texto_lista_elementos {
+	background-color: var(--bs-rojo);
+	padding: .625rem;
+	border-radius: .3125rem;
+}
+
+main .cont_1 .cont_dinero .caja_texto_lista_elementos .texto_listado_elemntos{
+	font-size: small;
+	line-height: 1.25rem;
+	font-weight: 900;
+}

@@ -1,0 +1,14 @@
+
+main .cont_1 .cont_header_dos {
+	margin-top: .625rem;
+}
+main .cont_1 .cont_header_dos .texto_header_dos {
+	color:var(--bs-gris);
+	margin-top: 1.25rem;
+	text-align: center;
+}
+main .cont_1 .cont_header_dos .texto_parrafo_dos {
+	text-align: center;
+	margin-top: 1.25rem;
+	color: var(--bs-blanco-claro);
+}

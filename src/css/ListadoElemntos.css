@@ -1,0 +1,179 @@
+main .cont_1 .cont_header_dos.cont_listado_elementos {
+	background-color: linear-gradient(var(--bs-azul-rgbas), var(--bs-negro-claro));
+	margin-left: .625rem;
+	margin-right: .625rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	padding-top: .25rem;
+	padding-bottom: .625rem;
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr 1fr;
+	border-radius: .3125rem;
+	align-items: center;
+	box-shadow: 0rem 0rem .625rem var(--bs-gris);
+	transition: all 0.9s ease;
+	opacity: 0;
+	width: 100%;
+	transform: translateY(-2.5rem);
+}
+
+main .cont_1 .cont_header_dos.cont_listado_elementos .caja_listado_boton {
+	margin-right: 1.25rem;
+}
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_boton
+	.listado_boton_eliminar,
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_boton
+	.listado_boton_editar {
+	border: none;
+	font-weight: 600;
+	color: var(--bs-blanco-claro);
+	padding: .375rem;
+	margin-top: .625rem;
+	width: 100%;
+	border-radius: .3125rem;
+}
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_boton
+	.listado_boton_eliminar {
+	background-color: var(--bs-rojo);
+}
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_boton
+	.listado_boton_editar {
+	background-color: var(--bs-verde-mer);
+}
+
+@media screen and (max-width: 37.5rem) {
+	main .cont_1 .cont_header_dos.cont_listado_elementos {
+		grid-template-columns: 1fr;
+		padding: .625rem;
+	}
+	main .cont_1 .cont_header_dos.cont_listado_elementos .caja_listado_img {
+		display: flex;
+		justify-content: center;
+	}
+	main
+		.cont_1
+		.cont_header_dos.cont_listado_elementos
+		.caja_listado_elementos_dinero {
+		display: flex;
+		justify-content: end;
+	}
+	main .cont_1 .cont_header_dos.cont_listado_elementos .caja_listado_boton {
+		display: flex;
+	}
+	main
+		.cont_1
+		.cont_header_dos.cont_listado_elementos
+		.caja_listado_boton
+		.listado_boton_eliminar,
+	main
+		.cont_1
+		.cont_header_dos.cont_listado_elementos
+		.caja_listado_boton
+		.listado_boton_editar {
+		margin-left: 1.25rem;
+	}
+	main
+		.cont_1
+		.cont_header_dos.cont_listado_elementos
+		.caja_listado_elementos_lista
+		.caja_parrafo_elementos {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 1.25rem;
+		margin-bottom: 1.25rem;
+	}
+}
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_elementos_lista
+	.parrafo_nombre {
+	font-size: medium;
+}
+
+main .cont_1 .cont_header_dos.cont_listado_elementos .fecha_lista,
+main .cont_1 .cont_header_dos.cont_listado_elementos .numero_dinero_lista {
+	color: var(--bs-verde-mer);
+	font-weight: 600;
+}
+
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_elementos_lista
+	.parrafo_select,
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_elementos_lista
+	.parrafo_nombre {
+	color: var(--bs-gris);
+}
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_elementos_lista
+	.parrafo_select {
+	font-size: x-large;
+	text-transform: capitalize;
+}
+main .cont_1 .cont_header_dos.cont_listado_elementos.activo_listado_elementos {
+	opacity: 1;
+	transform: translateY(0);
+}
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_elementos_lista {
+	margin-left: 1.25rem;
+	margin-top: .625rem;
+	margin-bottom: .625rem;
+}
+main
+	.cont_1
+	.cont_header_dos.cont_listado_elementos
+	.caja_listado_elementos_lista
+	p {
+	line-height: 1.5rem;
+}
+main .cont_1 .cont_header_dos.cont_listado_elementos .caja_listado_img {
+	margin-left: 1.25rem;
+}
+main .cont_1 .swipe-action__leading {
+	background-color: var(--bs-azul);
+	margin-bottom: 2rem;
+	color: var(--bs-blanco-claro);
+}
+
+main .cont_1 .swipe-action__leading,
+main .cont_1 .swipe-action__trailing {
+	position: relative;
+	top: .625rem;
+	height: 100%;
+	border-radius: .125rem;
+}
+
+main .cont_1 .swipe-action__trailing {
+	margin-top: .1875rem;
+	background-color: var(--bs-rojo);
+	color: var(--bs-blanco-claro);
+}
+
+main .cont_1 .swipeable-list .swipe-action {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+}

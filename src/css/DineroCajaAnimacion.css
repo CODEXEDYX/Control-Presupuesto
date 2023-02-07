@@ -1,0 +1,182 @@
+
+main .cont_1 .cont_dinero_caja {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(33, 37, 41, 0.584);
+	z-index: 200;
+	display: none;
+}
+
+main .cont_1 .cont_dinero_caja.cont_dinero_activos {
+	display: block;
+	display: flex;
+}
+main .cont_1 .cont_dinero_caja .caja_dinero_caja {
+	margin: auto;
+	width: 90%;
+	border-radius: .3125rem;
+	max-width: 43.75rem;
+	background-color: #1b314b;
+	padding: 2.5rem;
+	position: relative;
+	display: none;
+}
+main .cont_1 .cont_dinero_caja_animacion figure .caja_dinero_animacion_texto,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja .caja_dinero_texto {
+	display: flex;
+	align-items: center;
+}
+main
+	.cont_1
+	.cont_dinero_caja_animacion
+	figure
+	.caja_dinero_animacion_texto
+	img,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja .caja_dinero_texto img {
+	margin-left: .625rem;
+	position: relative;
+	bottom: .625rem;
+}
+main .cont_1 .cont_dinero_caja .caja_dinero_caja.cont_dinero_activo {
+	display: block;
+}
+main .cont_1 .cont_dinero_caja_animacion figure h2,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja h2 {
+	color: var(--bs-rojo);
+	margin-bottom: 1.25rem;
+}
+main .cont_1 .cont_dinero_caja_animacion figure p,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja p {
+	color: var(--bs-gris);
+	line-height: 1.5625rem;
+	margin-bottom: 1.25rem;
+}
+main .cont_1 .cont_dinero_caja .caja_dinero_caja p span {
+	color: var(--bs-rojo);
+	text-decoration: underline;
+}
+main .cont_1 .cont_dinero_caja_animacion figure .dinero_caja_animacion_boton,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja .caja_dinero {
+	display: flex;
+	justify-content: end;
+}
+main
+	.cont_1
+	.cont_dinero_caja_animacion
+	figure
+	.dinero_caja_animacion_boton
+	.reiniciar_app,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja .caja_dinero .reiniciar_app {
+	margin-right: 1.25rem;
+	background-color: var(--bs-rojo);
+	color: var(--bs-blanco-claro);
+	border-radius: .3125rem;
+}
+main
+	.cont_1
+	.cont_caja_modal_eliminar
+	figure
+	.caja_boton_modal
+	.boton_modal_cancelar,
+main
+	.cont_1
+	.cont_dinero_caja_animacion
+	figure
+	.dinero_caja_animacion_boton
+	.salir,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja .caja_dinero .salir {
+	padding: .3125rem;
+	background-color: var(--bs-verde-mer);
+	border-radius: .3125rem;
+	color: var(--bs-blanco-claro);
+}
+main
+	.cont_1
+	.cont_caja_modal_eliminar
+	figure
+	.caja_boton_modal
+	.boton_modal_cancelar,
+main
+	.cont_1
+	.cont_dinero_caja_animacion
+	figure
+	.dinero_caja_animacion_boton
+	.reiniciar_app,
+main
+	.cont_1
+	.cont_dinero_caja_animacion
+	figure
+	.dinero_caja_animacion_boton
+	.salir,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja .caja_dinero .reiniciar_app,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja .caja_dinero .salir {
+	font-weight: 600;
+	border: none;
+	padding: .5rem;
+	text-transform: capitalize;
+}
+main .cont_1 .cont_dinero_caja_animacion figure figcaption,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja figcaption {
+	position: absolute;
+	top: -0.625rem;
+	right: 0;
+	cursor: pointer;
+	transition-property: all;
+	transition-duration: 0.6s;
+	transition-timing-function: ease;
+}
+main .cont_1 .cont_dinero_caja_animacion figure figcaption:hover,
+main .cont_1 .cont_dinero_caja .caja_dinero_caja figcaption:hover {
+	transform: rotate(360deg);
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+main .cont_1 .cont_dinero .caja_dinero .caja_reset_dinero {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+}
+main .cont_1 .cont_dinero .caja_dinero .caja_reset_dinero .reset_dinero {
+	border: none;
+	padding: .4375rem;
+	border-radius: .3125rem;
+	font-weight: 600;
+	background-color: var(--bs-rojo);
+	color: var(--bs-blanco-claro);
+}
+main .cont_1 .cont_dinero_caja_animacion {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(33, 37, 41, 0.584);
+	z-index: 100;
+}
+main .cont_1 .cont_dinero_caja_animacion figure {
+	margin: auto;
+	width: 90%;
+	border-radius: .3125rem;
+	max-width: 43.75rem;
+	background-color:var(--bs-azul-claro);
+	padding: 2.5rem;
+	position: relative;
+	opacity: 0;
+	transition: all 1s ease;
+	transform: translateY(-2.5rem);
+}
+main .cont_1 .cont_dinero_caja_animacion figure.caja_dinero_activo_animacion {
+	opacity: 1;
+	transform: translateY(0);
+}

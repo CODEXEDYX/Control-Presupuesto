@@ -1,0 +1,122 @@
+
+main .cont_1 .cont_header.cont_formulario {
+	background-color: var(--bs-azul);
+	position: relative;
+	overflow: hidden;
+	border-radius: .3125rem;
+	box-shadow: 0rem 0rem 1.25rem var(--bs-gris);
+	padding: .625rem;
+}
+main .cont_1 .cont_header.cont_formulario span {
+	position: relative;
+	z-index: 2;
+}
+main .cont_1 .cont_header.cont_formulario::after {
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	content: "";
+	width: .0625rem;
+	height: .0625rem;
+	background-color: var(--bs-azul-rgba);
+	transform: scale(600);
+	border-top-left-radius: 18.75rem;
+	border-bottom-right-radius: 18.75rem;
+}
+
+main .cont_1 .cont_header.cont_formulario .formulario {
+	margin: auto;
+	width: 90%;
+	max-width: 37.5rem;
+	padding: 3.125rem;
+}
+
+main .cont_1 .cont_header.cont_formulario .formulario label {
+	display: flex;
+}
+main .cont_1 .cont_header.cont_formulario .formulario input:focus {
+	border: .125rem solid var(--bs-azul);
+}
+main .cont_1 .cont_header.cont_formulario .formulario input[type="number"] {
+	color: var(--bs-gris);
+	font-weight: 600;
+	border-radius: .3125rem;
+	text-align: center;
+	width: 100%;
+	padding-left: .3125rem;
+	padding-top: .4375rem;
+	padding-bottom: .4375rem;
+	outline: none;
+	border: .125rem solid transparent;
+	background-color: var(--bs-blanco-claro);
+}
+main .cont_1 .cont_header.cont_formulario .formulario label {
+	display: block;
+	margin-bottom: .625rem;
+	font-size: x-large;
+	color: var(--bs-azul);
+	cursor: pointer;
+	font-weight: 600;
+	text-align: center;
+}
+main .cont_1 .cont_header.cont_formulario .formulario button {
+	width: 100%;
+	margin-top: .625rem;
+	border: none;
+	padding: .3125rem;
+	background-color:var(--bs-azul-claro);
+	padding: .625rem;
+	border-radius: .3125rem;
+	position: relative;
+	overflow: hidden;
+}
+main .cont_1 .cont_header.cont_formulario .formulario button span {
+	position: relative;
+	z-index: 1;
+	color: var(--bs-blanco-claro);
+	font-weight: 600;
+}
+main .cont_1 .cont_header.cont_formulario .formulario button::after {
+	content: "";
+	width: .0625rem;
+	height: .0625rem;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	background-color: var(--bs-azul);
+	transition: all 1s ease;
+	border-radius: 62.5rem;
+}
+main .cont_1 .cont_header.cont_formulario .formulario button:hover:after {
+	transform: scale(1000);
+}
+main .cont_1 .cont_header.cont_formulario .formulario .formulario_grupo {
+	position: relative;
+}
+main
+	.cont_1
+	.cont_header.cont_formulario
+	.formulario
+	.formulario_grupo
+	.icono_formulario {
+	position: absolute;
+	right: 1.5625rem;
+	bottom: .125rem;
+	color: var(--bs-verde-checked);
+	opacity: 0;
+	transform: translateY(-0.625rem);
+	transition-duration: 1s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+main
+	.cont_1
+	.cont_header.cont_formulario
+	.formulario
+	.formulario_grupo
+	.icono_formulario.activo_icono {
+	opacity: 1;
+	transform: translateY(0);
+}
+

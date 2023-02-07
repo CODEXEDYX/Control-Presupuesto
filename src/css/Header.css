@@ -1,0 +1,43 @@
+main .cont_1 .cont_header .caja_header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+main .cont_1 .cont_header .caja_header img {
+	margin-bottom: 1.875rem;
+	width: 6.25rem;
+	border-radius: .625rem;
+}
+
+main .cont_1 .cont_header .texto_header {
+	color: var(--bs-blanco-claro);
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: .3125rem;
+	margin-bottom: 1.25rem;
+}
+main .cont_1 .cont_header .texto_header strong {
+	font-weight: 900;
+}
+
+@media screen and (max-width: 50rem) {
+	main .cont_1 .cont_header .caja_header {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@keyframes react_img {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.img_header {
+		animation: react_img infinite 4s linear;
+	}
+}

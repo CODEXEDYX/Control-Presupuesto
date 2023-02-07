@@ -1,0 +1,100 @@
+
+main .caja_icono {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color:var(--bs-azul-icono);
+	box-shadow: 0 0 .625rem var(--bs-gris);
+	margin-right: .625rem;
+	padding: .9375rem;
+	margin-bottom: .625rem;
+	border-radius: .3125rem;
+	cursor: pointer;
+}
+main .caja_icono .icono {
+	color: var(--bs-blanco-claro);
+	font-size: x-large;
+}
+
+main .cont_formulario_dos {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	background-color:var(--bs-negro-rgba);
+}
+main .cont_formulario_dos .formulario_dos {
+	margin: auto;
+	width: 90%;
+	max-width: 43.75rem;
+	opacity: 0;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+	transform: translateY(-3.125rem);
+}
+main .cont_formulario_dos .formulario_dos.activo_formulario_dos {
+	opacity: 1;
+	transform: translateY(0);
+}
+main .cont_formulario_dos .formulario_dos legend {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.25rem;
+	margin-bottom: .375rem;
+	color: var(--bs-azul);
+	font-weight: 600;
+	font-size: xx-large;
+}
+main .cont_formulario_dos .formulario_dos hr {
+	color: var(--bs-azul);
+	margin-bottom: 1.25rem;
+}
+main .cont_formulario_dos .formulario_dos select,
+main .cont_formulario_dos .formulario_dos input[type="text"],
+main .cont_formulario_dos .formulario_dos input[type="number"]{
+	width: 100%;
+	padding-top: .3125rem;
+	padding-bottom: .3125rem;
+	background: var(--bs-blanco-claro);
+	outline: none;
+	padding-left: .375rem;
+	border: .1875rem solid transparent;
+	border-radius: .3125rem;
+	color: var(--bs-gris);
+	font-weight: 600;
+}
+
+main .cont_formulario_dos .formulario_dos label {
+	display: block;
+	margin-top: .625rem;
+	margin-bottom: .625rem;
+	font-size: x-large;
+	font-weight: 600;
+	cursor: pointer;
+	color: var(--bs-azul);
+}
+
+main .cont_formulario_dos .formulario_dos button {
+	width: 100%;
+	margin-top: 1.25rem;
+	padding: .625rem;
+	border: none;
+	background-color:var(--bs-azul-claro);
+	color: var(--bs-blanco-claro);
+	font-weight: 600;
+	border-radius: .3125rem;
+}
+main .cont_formulario_dos .icono_formulario_dos {
+	position: absolute;
+	top: 1.25rem;
+	font-size: xx-large;
+	right: 1.25rem;
+	color: var(--bs-blanco-claro);
+	cursor: pointer;
+}
+main .cont_formulario_dos .formulario_dos select {
+	text-align: center;
+}

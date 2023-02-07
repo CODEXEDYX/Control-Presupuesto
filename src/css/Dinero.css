@@ -1,0 +1,34 @@
+main .cont_1 .cont_header .cont_dinero {
+	background-color:var(--bs-azul-claro);
+	padding: .625rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 22.5rem), 1fr));
+	gap: 1.25rem;
+	box-shadow: 0rem 0rem .625rem var(--bs-gris);
+	align-items: center;
+	border-radius: .3125rem;
+}
+main .cont_1 .cont_header .cont_dinero p {
+	color: var(--bs-blanco-claro);
+	font-weight: 600;
+	line-height: 2.5rem;
+	font-size: large;
+}
+main .cont_1 .cont_header .cont_dinero span {
+	color: var(--bs-verde-mer);
+	margin-left: .3125rem;
+}
+main .cont_1 .cont_header .cont_dinero span.disponible_rojo {
+	color: var(--bs-rojo);
+}
+
+main .cont_1 .cont_header .caja_progres {
+	display: flex;
+	justify-content: center;
+	margin-bottom: .625rem;
+	margin-top: .625rem;
+}
+
+main .cont_1 .cont_header .caja_progres .circular_progressbar {
+	width: 15rem;
+}
